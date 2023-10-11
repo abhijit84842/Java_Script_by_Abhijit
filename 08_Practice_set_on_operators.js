@@ -1,4 +1,4 @@
-// atke a input of age from user so that age will be 10-20.. 
+// take a input of age from user so that age will be 10-20.. 
 
 
 let age =prompt("Enter your age : ")
