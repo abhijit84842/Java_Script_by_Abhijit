@@ -1,4 +1,4 @@
-// Premitives datatyep:-> 7 types of datatypes in javascript 
+// Premitives datatyep:-> 7 types of datatypes in javascript (NNSSBBU)
 let a=null
 let b=200
 let c=Symbol("I am a nice symbol")
