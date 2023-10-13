@@ -23,5 +23,11 @@ let obj={
 }
 
 for (let i in obj){
-    console.log(obj[i])
+    console.log("mark of " + "are" + obj[i])
 }
+
+// for of loop..
+for (let b of "abhi"){
+    console.log(b)
+}
+
