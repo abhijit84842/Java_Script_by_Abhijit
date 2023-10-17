@@ -20,3 +20,9 @@ console.log(friend)
 
 let city='chandrakona\'town'
 console.log(city)
+
+
+//concaitinate the string..
+let name="Akash"
+let brother="abhijit"
+console.log(name.concat(" the brother of ", brother , " ok"))
