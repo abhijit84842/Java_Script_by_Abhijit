@@ -14,6 +14,13 @@ for (let i=0; i<n; i++){
 console.log(sum)
 
 
+// take a string input..
+str=prompt("enter your name: ")
+for (let i =0; i < str.length; i++){
+    console.log(str[i])
+}
+
+
 // for in loop..
 
 let obj={
