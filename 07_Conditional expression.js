@@ -16,7 +16,11 @@ else{
 
 }
 
+
+
+
 // javascript tarnary operator...
+
 /*
 condition ? exp1 : exp2
 */
