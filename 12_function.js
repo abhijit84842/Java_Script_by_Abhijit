@@ -6,3 +6,10 @@ function onePlusAvg(x,y){
 }
 
 console.log(onePlusAvg(2,4))
+
+
+// new way to write the function..
+const sum=(a,b)=>{
+    return a+b
+}
+console.log(sum(2,5))
