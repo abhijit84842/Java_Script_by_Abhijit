@@ -18,7 +18,7 @@ console.log(poped_item)
 // push method
 let a=[1,2,3,4]
 a.push(5)
-console.log(a)
+console.log(a)      // output-> [1,2,3,4,5]  add in last 
 
 
 // shift()   -> it remove thhe first element and return it
