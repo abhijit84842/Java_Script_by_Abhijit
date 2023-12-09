@@ -13,3 +13,10 @@ const sum=(a,b)=>{
     return a+b
 }
 console.log(sum(2,5))
+
+// without parameter..
+const great=()=>{
+    console.log("good morning..")
+}
+
+great()
