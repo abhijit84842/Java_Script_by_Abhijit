@@ -1,6 +1,5 @@
 // to create npm project = npm init -y
 // common js modules
 
-
-
-console.log("hi i am abhi")
+// Create NPM Packages = // nmp init 
+                        //  npm init -y 
