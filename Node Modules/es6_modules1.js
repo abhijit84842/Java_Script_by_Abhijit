@@ -1,4 +1,4 @@
-// ES6 MODULES
+// ES6 MODULES Export
 
 export const hello= ()=>{
     console.log("hello Abhijit")
