@@ -9,7 +9,7 @@ sum=0
 n=parseInt(prompt("Enter the n number : "))
 
 for (let i=0; i<n; i++){
-    sum +=(i+1)
+    sum = sum +i
 }
 console.log(sum)
 
