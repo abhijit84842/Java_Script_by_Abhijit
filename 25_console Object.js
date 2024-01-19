@@ -24,10 +24,23 @@ console.table(obj)
 // to see the information 
 console.info("hey this is important information")
 
+// Groups console log s togather in a collapsible group.
+console.group();
+
+//End a group created by console.group()
+console.groupEnd()
+
+// Makes assertions and logs an errpr massage if the assertion is false.
+console.assert()
+
+// Displays an interactive listing of an object's properties in the console..
+console.dir()
+
+
 
 // how many time will take a for loop
 console.time("t1")
 for (let i=0; i<3; i++){
     console.log(233)
 }
-console.timeEnd("t2")
+console.timeEnd("t2")       // stop the timer started by console.time() and logs the elapsed time.
