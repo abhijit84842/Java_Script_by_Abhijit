@@ -1,7 +1,10 @@
+// localStorage => localStorage is a web storage object which are not sent to the server with each request . This data servives a full page refresh and even a full browser restart.
+
+
 let key = prompt("Enter the key you want to set : ")
 let value = prompt("Enter the value you want to set: ")
 
-localStorage.setItem(key,value)    // to set the ket value in localstorage
+localStorage.setItem(key,value)    // to set the key value in localstorage
 
 if(key == "red" || key == "blue"){
   localStorage.removeItem(key)      // remove the items from localstorage
@@ -19,6 +22,6 @@ if(key == "clear"){
 localStorage.key(0)
 
 
-// json.stringify(object) => convert objects to json strings
-// json.parse(string) => converts string to objects (must be a valid json format)
+// json.stringify(object) => convert  javascript object to json strings
+// json.parse(string) => converts string into a javascript object (must be a valid json format)
 
