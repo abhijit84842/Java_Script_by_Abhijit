@@ -1,3 +1,6 @@
+// Cookies => are small strings of data stored directly in the browser...in javascript document.cookie provides access to cookies.
+
+
 console.log(document.cookie)
 // create the cookie...
 document.cookie = "name = Abhijit Das"
@@ -10,5 +13,8 @@ let key = prompt("Enter the Key : ")
 let value = prompt("Enter the value : ")
 
 document.cookie =`${encodeURIComponent(key)} = ${encodeURIComponent(value)}`
+
+// we can also decode this 
+// console.log(decodeURIComponent())
 
 console.log(document.cookie)
