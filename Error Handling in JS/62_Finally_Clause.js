@@ -8,7 +8,6 @@ catch(error){
     console.log(p)      // error in catch
 }
 
-/*finally{
+finally{
     console.log("Finally execute always...")
 }
-*/ 
