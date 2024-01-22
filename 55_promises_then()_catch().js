@@ -21,7 +21,7 @@ let p2 = new Promise((resolve,reject)=>{
 
 
 // To get the value..
-p1.then((value)=>{
+p1.then((value)=>{              // then function return a new promise...
     console.log(value)
 })
 console.log(p1,p2)
