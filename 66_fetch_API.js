@@ -1,4 +1,5 @@
 // Fetch api => javascript can be used to send and returns information form the network when needed(AJAX).fetch api used toget data over the network .
+// free API Testing => https://jsonplaceholder.typicode.com
 
 let promise1 =fetch("https://goweather.herokuapp.com/weather/Ny")
 promise1.then((response)=>{
