@@ -3,12 +3,16 @@
 In other words; a variable can be used before it has been declared
 */
 
+
+/*
+Hosting => its refers to the process  where the interpreter appers to move the diclarations to the top of the code before execution.
+*/
 x = 5; // Initialize 5 to x
 console.log(x)                  // Display x 
 var x; // Declare x
 
-var y; // Declare x
-y = 10; // Initialize 10 to x
+var y; // Declare y
+y = 10; // Initialize 10 to y
 console.log(y)      // // Display y
 
 
