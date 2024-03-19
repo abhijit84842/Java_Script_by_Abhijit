@@ -16,7 +16,34 @@ function hello1(){
    }
    return c
 
-    
 }
 let return_value=hello1()
 return_value()
+
+
+
+//Ex 2=>
+function returnFunc() {
+  const x = () => {
+    let a = 1; // local variable of x
+    console.log(a);
+
+    const y = () => {
+      // let a = 2; //local variable of y
+      console.log(a);
+
+      const z = () => {
+        //   let a = 3;
+        console.log(a); //local variable of z
+      };
+      z();
+    };
+    a = 90;  // update the value 
+    y();
+   
+  };
+  return x;
+}
+
+let c = returnFunc();
+c();
