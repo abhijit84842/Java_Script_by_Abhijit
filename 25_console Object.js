@@ -33,7 +33,11 @@ console.groupEnd()
 // Makes assertions and logs an errpr massage if the assertion is false.
 console.assert()
 
-// Displays an interactive listing of an object's properties in the console..
+
+// console.dir()  vs console.log()
+/* console.log()=> Shows the element DOM Tree.
+conosle.dir()=> Shows the as an object with its properties.
+*/
 console.dir()
 
 
