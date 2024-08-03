@@ -28,10 +28,10 @@ console.log(typeof f)
 // Objects in js(key and value pair call objects in js)
 
 const items={
-    "name" : "Abhijit",
-    "roll" : 27,
-    "address": undefined,
-    "age" : 23
+    name : "Abhijit",
+    roll : 27,
+    address: undefined,
+    age : 23
 
 }
 console.log(items['name'])
