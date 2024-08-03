@@ -34,7 +34,7 @@ console.log(comp1==comp2)       // false
 
 console.log(comp1!=comp2)       // true
 
-console.log(comp1===comp2)      // false (only check the number)
+console.log(comp1===comp2)      // false
 
 console.log(comp1!==comp2)      //true
 
@@ -42,7 +42,7 @@ console.log(comp2==comp3)       // true (bacause value is same)
 
 console.log(comp2!=comp3)       //false
 
-console.log(comp2===comp3)      //false(it will also check the data type)
+console.log(comp2===comp3)      //false(it will show the orginal value)
 
 console.log(comp2!==comp3)      // true
 
