@@ -30,7 +30,9 @@ let obj={
 }
 
 for (let i in obj){
-    console.log("mark of " + "are" + obj[i])
+    console.log(i)      // to print the key
+    console.log("mark of " + "are" + obj[i])        // to print the value
+  
 }
 
 // for of loop..
