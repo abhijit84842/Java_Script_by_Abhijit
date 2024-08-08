@@ -20,8 +20,8 @@ console.log(newarr)
 
 // reduce function..        (its returns a value not an array...)
 let n=[1,2,3]
-let arr1=n.reduce((a,b)=>{
+let newValue=n.reduce((a,b)=>{
     return a+b
 })
 
-console.log(arr1)           // output -> 6
+console.log(newValue)           // output -> 6
