@@ -1,4 +1,4 @@
-// Cookies => are small strings of data stored directly in the browser...in javascript document.cookie provides access to cookies.
+// Cookies => are small strings of data stored directly in the browser...in javascript document.cookie provides access to get the cookies.
 
 
 console.log(document.cookie)
