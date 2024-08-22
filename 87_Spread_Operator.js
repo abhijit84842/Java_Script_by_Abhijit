@@ -38,3 +38,21 @@ let obj = {
 console.log({...obj})      //  Output=> { name: 'Abhijit', company: 'XYZ', address: 'DSA 123' }
 
 console.log({...obj , name : "Coder Bhai"})     // Output=> { name: 'Coder Bhai', company: 'XYZ', address: 'DSA 123' }
+
+// Marge the Object
+let obj10 ={
+    name:"abhijit",
+    roll:25,
+    nickName:"Rintu",
+  }
+  
+  let obj11={
+   address:"C.K Town",
+   pin:721201,
+  
+  }
+  
+  let margeObj={
+    ...obj10 ,...obj11
+  }
+  console.log(margeObj)
