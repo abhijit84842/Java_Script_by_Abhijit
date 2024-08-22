@@ -2,6 +2,8 @@
 Hosting => its refers to the process  where the interpreter appers to move the diclarations to the top of the code before execution.
 
 //  *** Declearation are hoisted to the top but initialization is not...
+
+NOTE:- 1) jvavaScript only hoists the declearation not initialization
 */
 
 
@@ -13,6 +15,8 @@ Hosting => its refers to the process  where the interpreter appers to move the d
 
 // function => are hoisted..
 goodmorning()
+
+// function declearation :- it goes to the top before it execution
 function goodmorning(){
     console.log("Good Morning")
 }
@@ -50,3 +54,25 @@ console.log(c1)
 const c1= 13
 
 
+/*** MORE EXAMPLE FROM CODE WITH HARRY ***/
+
+//ex:1=>
+console.log(a40)  // OUTPUT: undefine
+
+var a40  // Only declear  
+
+//ex:-2=>
+console.log(a45)       // OUTPUT: 45 
+var a45=45 //initialize
+console.log(a45)        // OUTPUT: 45
+
+// EX:- 3
+console.log(b40)        // OUTPUT: error => b40 is not defined
+let b40 =100
+console.log(b40)        // OUTPUT: error => b40 is not defined
+
+// ex:-4
+let b41 = 101   
+console.log(b41)         // OUTPUT: 101
+
+// Ex:-5
