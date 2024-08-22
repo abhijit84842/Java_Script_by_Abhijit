@@ -4,7 +4,7 @@
 Closure=> it is a function along with lexical enviourment.
  */
 
-message="GODD Global.." // global variable
+message="GOOD Global.." // global variable
 function hello1(){
    let message="Good Morning"      // local variable
    {
