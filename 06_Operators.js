@@ -18,12 +18,12 @@ console.log(--a+b)  // Output => 24 (first decrement then add)
 
 // Assingment operatos..
 
-let x=2
+let x=2      // x is initialized with 2
 x+=5
 console.log(x)
 
-x**=5
-console.log(x)
+x**=5   // x = x ** 5, which means 2 to the power of 5 (5 times multiply of 2)
+console.log(x)      // 32
 
 
 
