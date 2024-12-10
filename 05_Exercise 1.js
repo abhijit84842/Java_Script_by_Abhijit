@@ -28,9 +28,11 @@ const details={
 
 }
 
-//details="change in string"      
+// details="change in string"      
 //Output:-> error
 
+// NOTES:- // 1) if we want to change const object to string,number or others then its not possible expect let and var.
+// 2) If we want to update the const object value then its possible.
 
 
 
