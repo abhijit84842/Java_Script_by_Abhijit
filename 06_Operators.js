@@ -12,7 +12,8 @@ console.log(a**b)
 console.log(a%b)
 console.log(a/b)
 console.log(++a)        // output -> 21
-console.log(--a)         // output -> 20
+console.log(--a)         // output -> 20 (as it is same)
+console.log(--a+b)  // Output => 24 (first decrement then add)
 
 
 // Assingment operatos..
