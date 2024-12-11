@@ -1,3 +1,6 @@
-var a=15;
-var a=17
-console.log(a)
+const person ={
+    name :"abhijit",
+    age:"24"
+}
+
+console.log(person.age)

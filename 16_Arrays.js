@@ -7,7 +7,7 @@ let marks=[20,35,21,15,98]
 console.log(marks)      // [ 20, 35, 21, 15, 98 ]
 
 let marks1=[10,20,60,98,null,'not present']
-console.log(marks1)     // output=> [ 0, 20, 60, 98, null, 'not present' ]
+console.log(marks1)     // output=> [ 10, 20, 60, 98, null, 'not present' ]  // length=> 6
 console.log(marks1[0])
 console.log(marks1[1])
 console.log(marks1[2])
