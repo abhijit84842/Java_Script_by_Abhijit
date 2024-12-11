@@ -5,7 +5,7 @@ function mainFunction(callback) {
     console.log("Performing operation...");
     // Use setTimeout to simulate an asynchronous operation
     setTimeout(() =>{
-      callback("Operation complete");
+      callback("Operation complete");   //call the callbackFunction within main function and passing parameter to callbackFunction()
     }, 1000);
   }
    
