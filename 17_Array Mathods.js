@@ -32,7 +32,7 @@ console.log(a1)     // output => [ 45, 65, 100 ]
 // unshift()  -> add element to the begining and return new array length
 let b1=[12,45,65,100]
 returned_items=b1.unshift(200)      // it return new array length
-console.log(returned_items)             // 5
+console.log(returned_items)             // length 5
 console.log(b1)                             // [ 200, 12, 45, 65, 100 ]
 
 
@@ -91,11 +91,24 @@ num23.reverse()
 console.log(num23)
 
 
+// How to remove a element from an array by INDEX number ?
+// splice()         => it changes the orginal array
+// => array.splice(index, count);
+// index: The position of the item you want to remove.
+// count: The number of items to remove starting from that index.
 
-//  splice()            -> it modify the orginal array..
-let num24=[551,22,3,65,45,7,8,9]
-num24.splice(2,3,1024,1025,1034)
-console.log(num24)
+// Example=> 1
+let fruits = ["apple", "banana", "cherry", "kiwi", "orenge"];
+fruits.splice(2,1)
+console.log(fruits)        // ['apple', 'banana', 'kiwi', 'orenge']    => remove the "cherry"
+
+// Example => 2
+let fruits1 = ["apple", "banana", "cherry", "kiwi", "orenge"];
+fruits1.splice(2,2)
+console.log(fruits1)    //  ['apple', 'banana', 'orenge']  => remote 2 items "cherry" and "kiwi"
+
+
+
 
 
 // slice ()  -> not change the orginal array ...

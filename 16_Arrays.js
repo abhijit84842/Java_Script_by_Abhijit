@@ -19,7 +19,7 @@ console.log(marks1[5])
 marks1[6]=78
 console.log(marks1[6])          // 78
 
-console.log(marks1.length)      // 6 
+console.log(marks1.length)      // 7 
 
 console.log(typeof marks1)      // object
 
