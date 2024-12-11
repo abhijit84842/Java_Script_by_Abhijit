@@ -17,3 +17,5 @@ console.log("My name is " + "Abhijit Das ")
 
 // call the promises 
 console.log(promises)
+
+// Notes : -> There are 3 states in promises => 1) pending 2)fullfiled 3) rejected
