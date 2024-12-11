@@ -49,7 +49,7 @@ promise_allSettled.then((value)=>{
 
 
 
-// Promise.race()
+// Promise.race()   => if any promises is rejected then also it will work
 let promise_race = Promise.race([p1,p2,p3])  // which promises is first resolved ...it will return that..
 promise_race.then((value)=>{
   console.log(value)
