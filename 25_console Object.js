@@ -36,7 +36,7 @@ console.assert()
 
 // console.dir()  vs console.log()
 /* console.log()=> Shows the element DOM Tree.
-conosle.dir()=> Shows the as an object with its properties.
+conosle.dir()=> Shows the element as an object with its properties.
 */
 console.dir()
 
