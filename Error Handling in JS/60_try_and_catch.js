@@ -39,4 +39,8 @@ setTimeout(()=>{
         console.log(err.message)
     }
 
+/*JavaScript uses the IEEE 754 standard for representing numbers. According to this standard:
+
+ 1) Dividing a finite number by zero is not considered an undefined operation, as it is in pure mathematics.
+ 2) Instead, it is defined as Infinity if the numerator is positive or -Infinity if the numerator is negative. */
 
