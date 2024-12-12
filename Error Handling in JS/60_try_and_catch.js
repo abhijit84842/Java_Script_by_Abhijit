@@ -1,3 +1,5 @@
+// Example => 1
+
 setTimeout(()=>{
     
     console.log("Hacking wifi ... please wait...")
@@ -25,4 +27,16 @@ setTimeout(()=>{
     
     console.log("Rahul's facekbook id hacked...")
 },6000)
+
+// Example 2 =>
+
+    try{
+        let divided = 10/0 
+        console.log(divided)    // Output => Infinity
+    }
+    catch(err){
+        console.log(err.name)
+        console.log(err.message)
+    }
+
 
