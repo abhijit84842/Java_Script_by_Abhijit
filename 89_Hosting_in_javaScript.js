@@ -1,9 +1,9 @@
 /*
 Hosting => its refers to the process  where the interpreter appers to move the diclarations to the top of the code before execution.
 
-//  *** Declearation are hoisted to the top but initialization is not...
+//  *** Declearation are hoisted to the top but not initialization...
 
-NOTE:- 1) jvavaScript only hoists the declearation not initialization
+NOTE:- 1) javaScript only hoists the declearation not initialization
 */
 
 
